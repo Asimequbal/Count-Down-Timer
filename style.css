@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days_box{
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 8px;
+    /* border: 1px solid black; */
+}
+.hours_box{
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 8px;
+}
+.minutes_box{
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 8px;
+}
+.seconds_box{
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 8px;
+}
+#days_value,#hours_value,#minutes_value,#seconds_value{
+    width: 100%;
+    height: 200px;
+    background: white;
+    /* margin: 12px; */
+    font-size: 90px;
+    font-weight: 100;
+    color: #2fb97c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 0px 6px 1px #888888;
+}
+.days_Text,.hours_Text,.minutes_Text,.seconds_Text{
+    text-align: center;
+    font-size: 2.5rem;
+}
