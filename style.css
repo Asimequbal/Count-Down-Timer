@@ -2,55 +2,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container{
+body{
     width: 100%;
     height: 100vh;
     background-color: aqua;
     display: flex;
-    justify-content: center;
+    gap: 15px;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
-.days_box{
-    width: 250px;
-    height: 250px;
+.container{
+    width: 50%;
+    height: 400px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.boxes{
     float: left;
-    padding: 8px;
-    /* border: 1px solid black; */
+    margin: 15px;
 }
-.hours_box{
-    width: 250px;
-    height: 250px;
-    float: left;
-    padding: 8px;
-}
-.minutes_box{
-    width: 250px;
-    height: 250px;
-    float: left;
-    padding: 8px;
-}
-.seconds_box{
-    width: 250px;
-    height: 250px;
-    float: left;
-    padding: 8px;
-}
-#days_value,#hours_value,#minutes_value,#seconds_value{
-    width: 100%;
-    height: 200px;
-    background: white;
-    /* margin: 12px; */
-    font-size: 90px;
-    font-weight: 100;
-    color: #2fb97c;
+#Days, #Hours, #Minutes , #Seconds {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
-    box-shadow: 0 0px 6px 1px #888888;
+    font-size: 70px;
+    font-weight: 600;
+    color: black;
 }
-.days_Text,.hours_Text,.minutes_Text,.seconds_Text{
+.title_text{
     text-align: center;
-    font-size: 2.5rem;
+    padding-top: 15px;
 }
